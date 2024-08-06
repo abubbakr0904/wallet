@@ -23,7 +23,6 @@ class SecureApiService extends SecureApiClient {
             "Accept": "application/json",
           },
         ),
-
       );
 
       if (response.statusCode != null && response.statusCode! >= 200 && response.statusCode! < 300) {
